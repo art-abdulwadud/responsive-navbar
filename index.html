@@ -9,12 +9,44 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" >
     <!-- Icon near the title -->
     <link rel="shortcut icon" type="image/x-icon" href="img/logo2.png" />
-    <title>The 21st Umma Show</title>
+    <title>Responsive Navbar</title>
     <link href="css/aos.css" rel="stylesheet">
 </head>
 <body>
-    <h1 class="text-center">Responsive Navbar</h1>
-    
+    <section class="nav-sec">
+        <nav class="res-navbar">
+            <div class="brand-name">
+                <span>Brand Name</span>
+            </div>
+            <div class="large-nav">
+                <ul class="navlist">
+                    <li class="navitem"><a href="#" class="navlink">Home</a></li>
+                    <li class="navitem"><a href="#" class="navlink">About</a></li>
+                    <li class="navitem"><a href="#" class="navlink">Dropdown</a>
+                        <div class="dropdown-nav">
+                            <a href="" class="dropdown-link">Desing</a>
+                            <a href="" class="dropdown-link">Develop</a>
+                            <a href="" class="dropdown-link">Deploy</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="small-menu d-none">
+                <ul class="navlist">
+                    <li class="navitem"><a href="#" class="navlink">Home</a></li>
+                    <li class="navitem"><a href="#" class="navlink">About</a></li>
+                    <li class="navitem"><a href="#" class="navlink">Dropdown</a>
+                        <div class="dropdown-nav">
+                            <a href="" class="dropdown-link">Desing</a>
+                            <a href="" class="dropdown-link">Develop</a>
+                            <a href="" class="dropdown-link">Deploy</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
     <!-- Optional JavaScript -->
     <script src="js/aos.js"></script>
     <script>
