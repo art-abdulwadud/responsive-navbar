@@ -2,6 +2,61 @@ body{
     margin: 0;
     padding: 0;
 }
+.res-navbar{
+	background: #ff0084;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #33001b, #ff0084);
+    background: linear-gradient(to right, #33001b, #ff0084);
+    position: relative;
+}
+.navbar-wrapper{
+	position: relative;
+}
+.brand-name{
+	color: #fcb045;
+	font-family: 'Sigmar One', cursive;
+	font-size: calc(110% + 1vh);
+	top: 20px;
+	position: relative;
+}
+.large-nav{
+	position: relative;
+	bottom: 20px;
+}
+.navitem{
+	display: inline-block;
+}
+.navlink{
+	font-family: 'Righteous', cursive;
+	font-size: calc(105% + 1vh);
+	color: #fcb045;
+	margin-left: 10px;
+}
+.navlink:hover{
+	text-decoration: none;
+	color: white;
+}
+.dropdown-nav{
+	position: absolute;
+	margin-top: 10px;
+	background: #ff0084;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #33001b, #ff0084);
+    background: linear-gradient(to right, #33001b, #ff0084);
+    border-radius: 5px;
+    min-width: 140px;
+}
+.dropdown-link{
+	display: block;
+	margin-top: 5px;
+	font-family: 'Righteous', cursive;
+	font-size: calc(90% + 0.8vh);
+	color: #fcb045;
+	padding: 5px;
+}
+.dropdown-link:hover{
+	background: #fcb045;
+	color: #ff0084;
+	text-decoration: none;
+}
 
 /*
   ##Device = Desktops

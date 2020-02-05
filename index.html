@@ -8,28 +8,32 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" >
     <!-- Icon near the title -->
-    <link rel="shortcut icon" type="image/x-icon" href="img/logo2.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo.png" >
+    <link href="https://fonts.googleapis.com/css?family=Righteous|Sigmar+One&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Responsive Navbar</title>
     <link href="css/aos.css" rel="stylesheet">
 </head>
 <body>
     <section class="nav-sec">
         <nav class="res-navbar">
-            <div class="brand-name">
-                <span>Brand Name</span>
-            </div>
-            <div class="large-nav">
-                <ul class="navlist">
-                    <li class="navitem"><a href="#" class="navlink">Home</a></li>
-                    <li class="navitem"><a href="#" class="navlink">About</a></li>
-                    <li class="navitem"><a href="#" class="navlink">Dropdown</a>
-                        <div class="dropdown-nav">
-                            <a href="" class="dropdown-link">Desing</a>
-                            <a href="" class="dropdown-link">Develop</a>
-                            <a href="" class="dropdown-link">Deploy</a>
-                        </div>
-                    </li>
-                </ul>
+            <div class="navbar-wrapper">
+                <a href="#" class="brand-name">
+                    Brand Name
+                </a>
+                <div class="large-nav text-right mr-5">
+                    <ul class="navlist">
+                        <li class="navitem"><a href="#" class="navlink">Home</a></li>
+                        <li class="navitem"><a href="#" class="navlink">About</a></li>
+                        <li class="navitem"><a href="#" class="navlink dropdown-tag">Dropdown<i class="material-icons">arrow_drop_down</i></a>
+                            <div class="dropdown-nav text-center">
+                                <a href="" class="dropdown-link">Desing <i class="material-icons">airplay</i></a>
+                                <a href="" class="dropdown-link">Develop <i class="material-icons">build</i></a>
+                                <a href="" class="dropdown-link">Deploy <i class="material-icons">cast</i></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <div class="small-menu d-none">
                 <ul class="navlist">
