@@ -27,6 +27,9 @@ body{
 	position: relative;
 	bottom: 20px;
 }
+.navitem{
+	list-style: none;
+}
 .navlink{
 	font-family: 'Righteous', cursive;
 	font-size: calc(105% + 1vh);
@@ -36,6 +39,9 @@ body{
 .navlink:hover{
 	text-decoration: none;
 	color: white;
+}
+.dropdown-tag{
+	cursor: pointer;
 }
 .dropdown-nav{
 	display: none;
@@ -172,7 +178,7 @@ body{
     border-radius: 5px;
     max-width: 140px;
 	}
-	.navitem{
+	.navlist{
 		display: inline-block;
 	}
 	.navlink{
@@ -202,7 +208,7 @@ body{
     right: 2%;
     left: 2%;
 	}
-	.navitem{
+	.navlist{
 		display: none;
 	}
 	.navlink{
@@ -240,7 +246,7 @@ body{
     right: 2%;
     left: 2%;
 	}
-	.navitem{
+	.navlist{
 		display: none;
 	}
 	.navlink{
