@@ -1,7 +1,7 @@
 // DOM Elements
 const togglerWrapper = document.querySelector('.icon-wrapper');
 const toggler = document.querySelector('.icon');
-const navList = document.querySelector('.navlist');
+const navList = document.querySelector('.small-nav');
 const dropdownTag = document.querySelector('.dropdown-tag');
 const dropdownNav = document.querySelector('.dropdown-nav');
 
@@ -18,10 +18,9 @@ const toggle = () => {
 		if(toggleActive){
 			toggleActive = false
 			navList.style.display = "none";
-			togglerWrapper.style.display = "unset";
 		}else{
 			toggleActive = true
-			navList.style.display = "inline-block";
+			navList.style.display = "block";
 		}
 	}
 }

@@ -27,6 +27,11 @@ body{
 	position: relative;
 	bottom: 20px;
 }
+.small-nav{
+	top: 70px;
+	text-align: center;
+	display: none;
+	}
 .navitem{
 	list-style: none;
 }
@@ -86,11 +91,6 @@ body{
 
 @media (min-width: 1281px) {
   .dropdown-nav{
-	display: none;
-	position: absolute;
-	background: #ff0084;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #33001b, #ff0084);
-    background: linear-gradient(to right, #33001b, #ff0084);
     border-radius: 5px;
     max-width: 140px;
 	}
@@ -99,6 +99,9 @@ body{
 	}
 	.navlink{
 		margin-left: 10px;
+	}
+	.small-nav{
+		display: : none;
 	}
 	.large-nav{
 		text-align: right;
@@ -117,11 +120,6 @@ body{
 
 @media (min-width: 1025px) and (max-width: 1280px) {
  .dropdown-nav{
-	display: none;
-	position: absolute;
-	background: #ff0084;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #33001b, #ff0084);
-    background: linear-gradient(to right, #33001b, #ff0084);
     border-radius: 5px;
     max-width: 140px;
 	}
@@ -130,6 +128,9 @@ body{
 	}
 	.navlink{
 		margin-left: 10px;
+	}
+	.small-nav{
+		display: : none;
 	}
 	.large-nav{
 	text-align: right;
@@ -148,11 +149,6 @@ body{
 
 @media (min-width: 768px) and (max-width: 1024px) {
 	.dropdown-nav{
-	display: none;
-	position: absolute;
-	background: #ff0084;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #33001b, #ff0084);
-    background: linear-gradient(to right, #33001b, #ff0084);
     border-radius: 5px;
     max-width: 140px;
 	}
@@ -161,6 +157,9 @@ body{
 	}
 	.navlink{
 		margin-left: 10px;
+	}
+	.small-nav{
+		display: : none;
 	}
 	.large-nav{
 	text-align: right;
@@ -179,13 +178,8 @@ body{
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   	.dropdown-nav{
-	display: none;
-	position: absolute;
-	background: #ff0084;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #33001b, #ff0084);
-    background: linear-gradient(to right, #33001b, #ff0084);
-    border-radius: 5px;
-    max-width: 140px;
+    	border-radius: 5px;
+    	max-width: 140px;
 	}
 	.navlist{
 		display: inline-block;
@@ -193,8 +187,14 @@ body{
 	.navlink{
 		margin-left: 10px;
 	}
+	.navlist{
+		display: : none;
+	}
 	.large-nav{
 	text-align: right;
+	}
+	.small-nav{
+		display: none;
 	}
 	.dropdown-link{
 	padding: 10px;
@@ -209,25 +209,29 @@ body{
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
+ 	.navbar-wrapper{
+ 		min-height: 18vh;
+ 	}
  	.dropdown-nav{
-	display: none;
-	position: absolute;
-	background: #ff0084;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #33001b, #ff0084);
-    background: linear-gradient(to right, #33001b, #ff0084);
     border-radius: 5px;
     max-width: 100%;
     right: 2%;
     left: 2%;
 	}
 	.navlist{
+		display: : none;
+	}
+	.small-nav{
 		display: none;
 	}
 	.navlink{
 		margin-left: 0;
 	}
 	.large-nav{
-	top: 70px;
+		display: none;
+	}
+	.small-nav{
+	margin-top: 15px;
 	text-align: center;
 	width: 100%;
 	background: #ff0084;  /* fallback for old browsers */
@@ -248,11 +252,6 @@ body{
 
 @media (max-width: 480px) {
   .dropdown-nav{
-	display: none;
-	position: absolute;
-	background: #ff0084;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #33001b, #ff0084);
-    background: linear-gradient(to right, #33001b, #ff0084);
     border-radius: 5px;
     max-width: 100%;
     right: 2%;
@@ -261,11 +260,17 @@ body{
 	.navlist{
 		display: none;
 	}
+	.small-nav{
+		display: : none;
+	}
 	.navlink{
 		margin-left: 0;
 	}
 	.large-nav{
-	top: 70px;
+		display: none;
+	}
+	.small-nav{
+	margin-top: 15px;
 	text-align: center;
 	width: 100%;
 	background: #ff0084;  /* fallback for old browsers */
